@@ -27,7 +27,7 @@ namespace Service
             }
             else
             {
-                balance -= amount;
+                balance = amount;
             }
             return balance;
         }
